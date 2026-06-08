@@ -1,0 +1,236 @@
+{
+  "version": "2026.05.29-local-1",
+  "description": "MetaFold Android yerel risk veritabanı. Agresif otomatik silme yerine risk puanı ve servis onayı için kullanılır.",
+  "labels": {
+    "com.whatsapp": "WhatsApp",
+    "com.whatsapp.w4b": "WhatsApp Business",
+    "com.android.vending": "Google Play Store",
+    "com.google.android.youtube": "YouTube",
+    "com.getir": "Getir",
+    "trendyol.com": "Trendyol",
+    "com.getmidas.crypto": "Midas",
+    "com.solidict.ebebek": "ebebek",
+    "com.arcelik.oliz": "Arcelik Oliz",
+    "com.defacto.android": "DeFacto",
+    "com.edenred.TicketRestaurantTR": "Edenred",
+    "com.zzkko": "SHEIN",
+    "com.amazon.appmanager": "Amazon App Manager",
+    "com.socialnmobile.dictapps.notepad.color.note": "ColorNote"
+  },
+  "whitelist": {
+    "android": "Android sistem paketi",
+    "com.android.systemui": "Android sistem arayüzü",
+    "com.google.android.gms": "Google Play Hizmetleri",
+    "com.google.android.gsf": "Google servis cercevesi",
+    "com.android.vending": "Google Play Store",
+    "com.whatsapp": "Kullanici iletisim uygulamasi",
+    "com.whatsapp.w4b": "Kullanici iletisim uygulamasi",
+    "com.google.android.youtube": "Resmi Google uygulaması",
+    "com.getir": "Resmi marka uygulaması; otomatik silinmez",
+    "trendyol.com": "Resmi marka uygulaması; otomatik silinmez",
+    "com.getmidas.crypto": "Finans uygulaması; otomatik silinmez",
+    "com.solidict.ebebek": "Resmi marka uygulaması; otomatik silinmez",
+    "com.arcelik.oliz": "Resmi marka uygulaması; otomatik silinmez",
+    "com.defacto.android": "Resmi marka uygulaması; otomatik silinmez",
+    "com.edenred.TicketRestaurantTR": "Resmi marka uygulaması; otomatik silinmez",
+    "com.zzkko": "Resmi alışveriş uygulaması; otomatik silinmez",
+    "com.amazon.appmanager": "Üretici/marka uygulaması; otomatik silinmez",
+    "com.socialnmobile.dictapps.notepad.color.note": "Popüler not uygulaması; sadece izin/receiver uyarısı varsa incelenir"
+  },
+  "protected_prefixes": [
+    "com.android.",
+    "com.google.android.",
+    "com.samsung.",
+    "com.sec.",
+    "com.miui.",
+    "com.xiaomi.",
+    "com.huawei.",
+    "com.oppo.",
+    "com.vivo.",
+    "com.realme.",
+    "com.oneplus.",
+    "com.motorola."
+  ],
+  "packages": {
+    "com.android.system.service": {
+      "risk": 95,
+      "reason": "Sahte Android sistem servisi adı"
+    },
+    "com.android.systemhelper": {
+      "risk": 95,
+      "reason": "Sistem yardımcısı gibi görünen sahte paket"
+    },
+    "com.google.system.service": {
+      "risk": 95,
+      "reason": "Google sistem servisi gibi görünen sahte paket"
+    },
+    "com.system.update": {
+      "risk": 90,
+      "reason": "Sistem güncelleme taklidi"
+    },
+    "com.system.tool": {
+      "risk": 88,
+      "reason": "Sistem aracı taklidi"
+    },
+    "com.wifi.service": {
+      "risk": 82,
+      "reason": "Servis adı kullanan şüpheli Wi-Fi paketi"
+    },
+    "com.cleaner.booster": {
+      "risk": 78,
+      "reason": "Booster/cleaner adware davranışı"
+    },
+    "com.speed.booster": {
+      "risk": 78,
+      "reason": "Booster/cleaner adware davranışı"
+    },
+    "com.battery.saver": {
+      "risk": 74,
+      "reason": "Sahte pil tasarrufu/cleaner davranışı"
+    },
+    "com.privacy.lock": {
+      "risk": 74,
+      "reason": "Kilit/mahremiyet adı kullanan şüpheli paket"
+    },
+    "com.abtnprojects.ambatana": {
+      "risk": 82,
+      "reason": "Saha loglarında reklam temizleme listesine girdi"
+    },
+    "com.immomo.biz.yaahlan": {
+      "risk": 80,
+      "reason": "Saha loglarında reklam davranışı raporlandı"
+    },
+    "com.vitastudio.mahjong": {
+      "risk": 72,
+      "reason": "Saha loglarında agresif reklam davranışı raporlandı"
+    },
+    "com.gamebrain.hexasort": {
+      "risk": 72,
+      "reason": "Saha loglarında agresif reklam davranışı raporlandı"
+    },
+    "easy.sudoku.puzzle.solver.free": {
+      "risk": 72,
+      "reason": "Saha loglarında reklam davranışı raporlandı"
+    },
+    "com.blackout.word": {
+      "risk": 70,
+      "reason": "Saha loglarında reklam davranışı raporlandı"
+    },
+    "com.finazzi.distquake": {
+      "risk": 70,
+      "reason": "Saha loglarında reklam davranışı raporlandı"
+    },
+    "com.nebula.mahjongtile": {
+      "risk": 70,
+      "reason": "Saha loglarında reklam davranışı raporlandı"
+    },
+    "com.allfiles.viewerer": {
+      "risk": 78,
+      "reason": "Dosya görüntüleyici adı kullanan şüpheli paket"
+    },
+    "hds.duduk": {
+      "risk": 68,
+      "reason": "Saha loglarında şüpheli temizleme listesine girdi"
+    },
+    "flipboard.boxer.app": {
+      "risk": 62,
+      "reason": "Saha loglarında şüpheli temizleme listesine girdi"
+    }
+  },
+  "package_prefixes": [
+    {
+      "prefix": "com.bg.link.balls.",
+      "risk": 78,
+      "reason": "Saha loglarında reklam davranışı raporlandı"
+    },
+    {
+      "prefix": "com.newleaf.app.",
+      "risk": 78,
+      "reason": "Saha loglarında reklam davranışı raporlandı"
+    },
+    {
+      "prefix": "com.awesome.puzzlehexa",
+      "risk": 76,
+      "reason": "Saha loglarında reklam davranışı raporlandı"
+    },
+    {
+      "prefix": "com.dsi.ant.plugins.",
+      "risk": 72,
+      "reason": "Saha loglarında reklam davranışı raporlandı"
+    },
+    {
+      "prefix": "com.nosurrenderstudio.",
+      "risk": 70,
+      "reason": "Saha loglarında reklam davranışı raporlandı"
+    },
+    {
+      "prefix": "water.sort.color.puzzle.",
+      "risk": 70,
+      "reason": "Saha loglarında reklam davranışı raporlandı"
+    }
+  ],
+  "keywords": [
+    {
+      "term": "adware",
+      "weight": 20,
+      "reason": "adware izi"
+    },
+    {
+      "term": "adservice",
+      "weight": 16,
+      "reason": "reklam servisi izi"
+    },
+    {
+      "term": "adserver",
+      "weight": 16,
+      "reason": "reklam sunucusu izi"
+    },
+    {
+      "term": "popup",
+      "weight": 18,
+      "reason": "popup reklam izi"
+    },
+    {
+      "term": "popunder",
+      "weight": 18,
+      "reason": "popunder reklam izi"
+    },
+    {
+      "term": "booster",
+      "weight": 14,
+      "reason": "booster/cleaner adı"
+    },
+    {
+      "term": "cleaner",
+      "weight": 14,
+      "reason": "cleaner adı"
+    },
+    {
+      "term": "battery.saver",
+      "weight": 14,
+      "reason": "sahte pil tasarrufu izi"
+    }
+  ],
+  "risk_signals": {
+    "accessibility": {
+      "weight": 28,
+      "reason": "erişilebilirlik servisi aktif"
+    },
+    "notification_listener": {
+      "weight": 22,
+      "reason": "bildirim erişimi aktif"
+    },
+    "overlay": {
+      "weight": 20,
+      "reason": "üstte gösterme izni aktif"
+    },
+    "device_admin": {
+      "weight": 36,
+      "reason": "cihaz yöneticisi aktif"
+    },
+    "boot_receiver": {
+      "weight": 3,
+      "reason": "telefon açılışında çalışan alıcı"
+    }
+  }
+}
