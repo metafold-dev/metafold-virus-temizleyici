@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "url": "https://raw.githubusercontent.com/metafold-dev/metafold-virus-temizleyici/main/dist/MetaFold.Virus.Temizleyici.exe",
+  "url": "https://github.com/metafold-dev/metafold-virus-temizleyici/releases/download/v1.0.0/MetaFold.Virus.Temizleyici.exe",
   "sha256": "65ce15b8b79128af5007c3911697acd15139da31ed6a3547ab0edfd326ddd716",
   "notes": "?lk OTA destekli s?r?m."
 }
